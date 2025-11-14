@@ -1,0 +1,28 @@
+[
+  {
+  "event_type": "claim.submitted",
+  "timestamp": "2025-01-12T10:32:14Z",
+  "clearinghouse_claim_id": "CH-4421987",
+  "client_reference_id": "CLAIM-10001",
+  "payer_id": "US123",
+  "submitter_id": "1234567890",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed",
+    "hipaa_level_2": "passed"
+  }
+},
+
+{
+  "event_type": "claim.submitted",
+  "timestamp": "2025-02-18T14:52:10Z",
+  "clearinghouse_claim_id": "CH-998120",
+  "client_reference_id": "CLM-4455",
+  "payer_id": "60054",
+  "submitter_id": "9876543210",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed"
+  }
+}
+]

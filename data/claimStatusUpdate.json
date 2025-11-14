@@ -1,0 +1,51 @@
+[
+  {
+  "event_type": "claim.status_update",
+  "timestamp": "2025-01-13T09:22:40Z",
+  "clearinghouse_claim_id": "CH-4421987",
+  "client_reference_id": "CLAIM-10001",
+  "payer_claim_id": "PAYER-4400123",
+  "status": "PENDING_REVIEW",
+  "payer_message": "Submitted claim is currently pending review"
+},
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-02-19T10:15:30Z",
+  "clearinghouse_claim_id": "CH-998120",
+  "client_reference_id": "CLM-4455",
+  "payer_claim_id": "PN-991877",
+  "status": "PENDING_REVIEW",
+  "payer_message": "Submitted claim is currently pending review"
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-02-20T08:33:55Z",
+  "clearinghouse_claim_id": "CH-998120",
+  "client_reference_id": "CLM-4455",
+  "payer_claim_id": "PN-991877",
+  "status": "ADDITIONAL_INFO_REQUIRED",
+  "reason_codes": [
+    {
+      "code": "CO-97",
+      "description": "The benefit for this service is included in another service"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-01-14T11:45:20Z",
+  "clearinghouse_claim_id": "CH-4421987",
+  "client_reference_id": "CLAIM-10001",
+  "payer_claim_id": "PAYER-4400123",
+  "status": "ADDITIONAL_INFO_REQUIRED",
+  "reason_codes": [
+    {
+      "code": "CO-45",
+      "description": "Charge exceeds fee schedule/maximum allowable or contracted/legislated fee arrangement"
+    }
+  ]
+}
+
+]

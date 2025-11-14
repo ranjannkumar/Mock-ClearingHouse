@@ -1,0 +1,105 @@
+[
+  {
+  "event_type": "claim.remittance_received",
+  "timestamp": "2025-01-15T13:10:00Z",
+  "clearinghouse_claim_id": "CH-4421987",
+  "client_reference_id": "CLAIM-10001",
+  "payer_claim_id": "PAYER-4400123",
+  "status": "PAID",
+  "payment": {
+    "payment_amount": 118.50,
+    "charged_amount": 150.00,
+    "allowed_amount": 120.00,
+    "patient_responsibility": 1.50,
+    "payment_date": "2025-01-15",
+    "check_number": "CHK002201"
+  },
+  "era_breakdown": [
+    {
+      "service_line": "99213",
+      "line_charge": 150.00,
+      "line_allowed": 120.00,
+      "line_paid": 118.50,
+      "adjustments": [
+        { "group": "CO", "code": "45", "amount": 30.00 }
+      ]
+    }
+  ]
+},
+
+{
+  "event_type": "claim.remittance_received",
+  "timestamp": "2025-02-22T09:30:00Z",
+  "clearinghouse_claim_id": "CH-998120",
+  "client_reference_id": "CLM-4455",
+  "payer_claim_id": "PN-991877",
+  "status": "PAID",
+  "payment": {
+    "payment_amount": 200.00,
+    "charged_amount": 250.00,
+    "allowed_amount": 220.00,
+    "patient_responsibility": 20.00,
+    "payment_date": "2025-02-22",
+    "check_number": "CHK003345"
+  },
+  "era_breakdown": [
+    {
+      "service_line": "80050",
+      "line_charge": 250.00,
+      "line_allowed": 220.00,
+      "line_paid": 200.00,
+      "adjustments": [
+        { "group": "CO", "code": "97", "amount": 30.00 }
+      ]
+    }
+  ]
+},
+
+{
+  "event_type": "claim.remittance_received",
+  "timestamp": "2025-02-22T16:20:10Z",
+  "clearinghouse_claim_id": "CH-998120",
+  "client_reference_id": "CLM-4455",
+  "payer_claim_id": "PN-991877",
+  "status": "DENIED",
+  "denial_codes": [
+    {
+      "code": "CO-16",
+      "description": "Claim lacks information"
+    },
+    {
+      "code": "M51",
+      "description": "Missing or incomplete documentation"
+    }
+  ],
+  "payment": {
+    "payment_amount": 0,
+    "charged_amount": 220.00,
+    "allowed_amount": 0,
+    "payment_date": "2025-02-22"
+  }
+},
+
+{
+  "event_type": "claim.remittance_received",
+  "timestamp": "2025-01-16T10:15:30Z",
+  "clearinghouse_claim_id": "CH-4421987",
+  "client_reference_id": "CLAIM-10001",
+  "payer_claim_id": "PAYER-4400123",
+  "status": "DENIED",
+  "denial_codes": [
+    {
+      "code": "CO-29",
+      "description": "The time limit for filing has expired"
+    }
+  ],
+  "payment": {
+    "payment_amount": 0,
+    "charged_amount": 120.00,
+    "allowed_amount": 0,
+    "payment_date": "2025-01-16"
+  }
+}
+
+
+]
