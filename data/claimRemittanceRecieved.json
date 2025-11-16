@@ -99,7 +99,142 @@
     "allowed_amount": 0,
     "payment_date": "2025-01-16"
   }
+},
+
+{
+  "event_type": "claim.remittance_received",
+  "timestamp": "2025-03-10T11:45:00Z",
+  "clearinghouse_claim_id": "CH-556677",
+  "client_reference_id": "CLM-7788",
+  "payer_claim_id": "PN-334455",
+  "status": "PAID",
+  "payment": {
+    "payment_amount": 75.00,
+    "charged_amount": 100.00,
+    "allowed_amount": 80.00,
+    "patient_responsibility": 5.00,
+    "payment_date": "2025-03-10",
+    "check_number": "CHK004567"
+  },
+  "era_breakdown": [
+    {
+      "service_line": "93000",
+      "line_charge": 100.00,
+      "line_allowed": 80.00,
+      "line_paid": 75.00,
+      "adjustments": [
+        { "group": "CO", "code": "45", "amount": 20.00 }
+      ]
+    }
+  ]
+},
+
+{
+  "event_type": "claim.remittance_received",
+  "timestamp": "2025-03-25T14:05:20Z",
+  "clearinghouse_claim_id": "CH-223344",
+  "client_reference_id": "CLM-9900",
+  "payer_claim_id": "PN-667788",
+  "status": "DENIED",
+  "denial_codes": [
+    {
+      "code": "CO-4",
+      "description": "Service not covered"
+    }
+  ],
+  "payment": {
+    "payment_amount": 0,
+    "charged_amount": 150.00,
+    "allowed_amount": 0,
+    "payment_date": "2025-03-25"
+  }
+},
+
+{
+  "event_type": "claim.remittance_received",
+  "timestamp": "2025-04-15T12:30:45Z",
+  "clearinghouse_claim_id": "CH-889900",
+  "client_reference_id": "CLM-1122",
+  "payer_claim_id": "PN-445566",
+  "status": "PAID",
+  "payment": {
+    "payment_amount": 180.00,
+    "charged_amount": 200.00,
+    "allowed_amount": 190.00,
+    "patient_responsibility": 10.00,
+    "payment_date": "2025-04-15",
+    "check_number": "CHK005678"
+  },
+  "era_breakdown": [
+    {
+      "service_line": "71020",
+      "line_charge": 200.00,
+      "line_allowed": 190.00,
+      "line_paid": 180.00,
+      "adjustments": [
+        { "group": "CO", "code": "45", "amount": 10.00 }
+      ]
+    }
+  ]
+},
+
+{
+  "event_type": "claim.remittance_received",
+  "timestamp": "2025-04-28T15:50:30Z",
+  "clearinghouse_claim_id": "CH-334455",
+  "client_reference_id": "CLM-3344",
+  "payer_claim_id": "PN-778899",
+  "status": "PAID",
+  "payment": {
+    "payment_amount": 220.00,
+    "charged_amount": 250.00,
+    "allowed_amount": 230.00,
+    "patient_responsibility": 15.00,
+    "payment_date": "2025-04-28",
+    "check_number": "CHK006789"
+  },
+  "era_breakdown": [
+    {
+      "service_line": "81002",
+      "line_charge": 250.00,
+      "line_allowed": 230.00,
+      "line_paid": 220.00,
+      "adjustments": [
+        { "group": "CO", "code": "45", "amount": 20.00 }
+      ]
+    }
+  ]
+},
+
+{
+  "event_type": "claim.remittance_received",
+  "timestamp": "2025-03-05T09:00:00Z",
+  "clearinghouse_claim_id": "CH-778899",
+  "client_reference_id": "CLAIM-50005",
+  "payer_claim_id": "PAYER-991122",
+  "status": "PAID",
+  "payment": {
+    "payment_amount": 75.00,
+    "charged_amount": 100.00,
+    "allowed_amount": 80.00,
+    "patient_responsibility": 5.00,
+    "payment_date": "2025-03-05",
+    "check_number": "CHK004500"
+  },
+  "era_breakdown": [
+    {
+      "service_line": "99214",
+      "line_charge": 100.00,
+      "line_allowed": 80.00,
+      "line_paid": 75.00,
+      "adjustments": [
+        { "group": "CO", "code": "45", "amount": 20.00 },
+        { "group": "PR", "code": "1", "amount": 5.00 }
+      ]
+    }
+  ]
 }
+
 
 
 ]

@@ -46,6 +46,200 @@
       "description": "Charge exceeds fee schedule/maximum allowable or contracted/legislated fee arrangement"
     }
   ]
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-03-06T12:00:00Z",
+  "clearinghouse_claim_id": "CH-556677",
+  "client_reference_id": "CLM-7788",
+  "payer_claim_id": "PN-334455",
+  "status": "PENDING_REVIEW",
+  "payer_message": "Submitted claim is currently pending review"
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-03-11T14:25:30Z",
+  "clearinghouse_claim_id": "CH-556677",
+  "client_reference_id": "CLM-7788",
+  "payer_claim_id": "PN-334455",
+  "status": "ADDITIONAL_INFO_REQUIRED",
+  "reason_codes": [
+    {
+      "code": "CO-50",
+      "description": "Non-covered service"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-03-21T09:10:15Z",
+  "clearinghouse_claim_id": "CH-223344",
+  "client_reference_id": "CLM-9900",
+  "payer_claim_id": "PN-667788",
+  "status": "PENDING_REVIEW",
+  "payer_message": "Submitted claim is currently pending review"
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-03-26T16:45:50Z",
+  "clearinghouse_claim_id": "CH-223344",
+  "client_reference_id": "CLM-9900",
+  "payer_claim_id": "PN-667788",
+  "status": "ADDITIONAL_INFO_REQUIRED",
+  "reason_codes": [
+    {
+      "code": "CO-70",
+      "description": "Patient not covered for service"
+    }
+  ]
+},
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-04-11T13:20:05Z",
+  "clearinghouse_claim_id": "CH-889900",
+  "client_reference_id": "CLM-1122",
+  "payer_claim_id": "PN-445566",
+  "status": "PENDING_REVIEW",
+  "payer_message": "Submitted claim is currently pending review"
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-04-16T15:55:30Z",
+  "clearinghouse_claim_id": "CH-889900",
+  "client_reference_id": "CLM-1122",
+  "payer_claim_id": "PN-445566",
+  "status": "ADDITIONAL_INFO_REQUIRED",
+  "reason_codes": [
+    {
+      "code": "CO-96",
+      "description": "Non-covered charge(s)"
+    }
+  ]
+},
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-04-26T12:40:45Z",
+  "clearinghouse_claim_id": "CH-334455",
+  "client_reference_id": "CLM-3344",
+  "payer_claim_id": "PN-778899",
+  "status": "PENDING_REVIEW",
+  "payer_message": "Submitted claim is currently pending review"
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-05-01T14:15:10Z",
+  "clearinghouse_claim_id": "CH-334455",
+  "client_reference_id": "CLM-3344",
+  "payer_claim_id": "PN-778899",
+  "status": "ADDITIONAL_INFO_REQUIRED",
+  "reason_codes": [
+    {
+      "code": "CO-85",
+      "description": "Claim/service denied due to billing/payer policy"
+    }
+  ]
+},
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-05-16T10:05:55Z",
+  "clearinghouse_claim_id": "CH-667788",
+  "client_reference_id": "CLM-5566",
+  "payer_claim_id": "PN-990011",
+  "status": "PENDING_REVIEW",
+  "payer_message": "Submitted claim is currently pending review"
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-05-21T13:30:20Z",
+  "clearinghouse_claim_id": "CH-667788",
+  "client_reference_id": "CLM-5566",
+  "payer_claim_id": "PN-990011",
+  "status": "ADDITIONAL_INFO_REQUIRED",
+  "reason_codes": [
+    {
+      "code": "CO-90",
+      "description": "Precertification/authorization/notification absent"
+    }
+  ]
+},
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-06-01T11:50:35Z",
+  "clearinghouse_claim_id": "CH-112233",
+  "client_reference_id": "CLM-7788",
+  "payer_claim_id": "PN-223344",
+  "status": "PENDING_REVIEW",
+  "payer_message": "Submitted claim is currently pending review"
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-06-06T14:15:00Z",
+  "clearinghouse_claim_id": "CH-112233",
+  "client_reference_id": "CLM-7788",
+  "payer_claim_id": "PN-223344",
+  "status": "ADDITIONAL_INFO_REQUIRED",
+  "reason_codes": [
+    {
+      "code": "CO-95",
+      "description": "Procedure code inconsistent with modifier"
+    }
+  ]
+},
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-06-16T12:25:45Z",
+  "clearinghouse_claim_id": "CH-445566",
+  "client_reference_id": "CLM-9900",
+  "payer_claim_id": "PN-556677",
+  "status": "PENDING_REVIEW",
+  "payer_message": "Submitted claim is currently pending review"
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-06-21T15:40:10Z",
+  "clearinghouse_claim_id": "CH-445566",
+  "client_reference_id": "CLM-9900",
+  "payer_claim_id": "PN-556677",
+  "status": "ADDITIONAL_INFO_REQUIRED",
+  "reason_codes": [
+    {
+      "code": "CO-82",
+      "description": "Claim/service denied due to coverage rules"
+    }
+  ]
+},
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-07-01T10:30:25Z",
+  "clearinghouse_claim_id": "CH-778899",
+  "client_reference_id": "CLM-1122",
+  "payer_claim_id": "PN-889900",
+  "status": "PENDING_REVIEW",
+  "payer_message": "Submitted claim is currently pending review"
+},
+
+{
+  "event_type": "claim.status_update",
+  "timestamp": "2025-07-06T13:55:50Z",
+  "clearinghouse_claim_id": "CH-778899",
+  "client_reference_id": "CLM-1122",
+  "payer_claim_id": "PN-889900",
+  "status": "ADDITIONAL_INFO_REQUIRED",
+  "reason_codes": [
+    {
+      "code": "CO-88",
+      "description": "Claim/service denied due to lack of medical necessity"
+    }
+  ]
 }
 
 ]

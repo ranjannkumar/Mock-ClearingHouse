@@ -24,5 +24,122 @@
   "validation": {
     "hipaa_level_1": "passed"
   }
+},
+
+{
+  "event_type": "claim.submitted",
+  "timestamp": "2025-03-05T08:15:00Z",
+  "clearinghouse_claim_id": "CH-556677",
+  "client_reference_id": "CLM-7788",
+  "payer_id": "AETNA01",
+  "submitter_id": "5556667770",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed",
+    "hipaa_level_2": "passed"
+  }
+},
+
+{
+  "event_type": "claim.submitted",
+  "timestamp": "2025-03-20T13:00:30Z",
+  "clearinghouse_claim_id": "CH-223344",
+  "client_reference_id": "CLM-9900",
+  "payer_id": "BCBS99",
+  "submitter_id": "1112223330",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed"
+  }
+},
+{
+  "event_type": "claim.submitted",
+  "timestamp": "2025-04-10T09:50:20Z",
+  "clearinghouse_claim_id": "CH-889900",
+  "client_reference_id": "CLM-1122",
+  "payer_id": "CIGNA77",
+  "submitter_id": "4445556660",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed",
+    "hipaa_level_2": "passed"
+  }
+},
+{
+  "event_type": "claim.submitted",
+  "timestamp": "2025-04-25T15:10:45Z",
+  "clearinghouse_claim_id": "CH-334455",
+  "client_reference_id": "CLM-3344",
+  "payer_id": "UHC88",
+  "submitter_id": "7778889990",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed"
+  }
+},
+{
+  "event_type": "claim.submitted",
+  "timestamp": "2025-05-12T12:00:00Z",
+  "clearinghouse_claim_id": "CH-667788",
+  "client_reference_id": "CLM-5566",
+  "payer_id": "KAISER55",
+  "submitter_id": "2223334440",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed",
+    "hipaa_level_2": "passed"
+  }
+},
+{
+  "event_type": "claim.submitted",
+  "timestamp": "2025-05-28T09:30:10Z",
+  "clearinghouse_claim_id": "CH-112233",
+  "client_reference_id": "CLM-7788",
+  "payer_id": "HUMANA66",
+  "submitter_id": "5554443330",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed"
+  }
+},
+{
+  "event_type": "claim.submitted",
+  "timestamp": "2025-06-15T14:40:45Z",
+  "clearinghouse_claim_id": "CH-445566",
+  "client_reference_id": "CLM-9900",
+  "payer_id": "MEDICA77",
+  "submitter_id": "6667778880",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed",
+    "hipaa_level_2": "passed"
+  }
+},
+{
+  "event_type": "claim.submitted",
+  "timestamp": "2025-06-30T11:10:30Z",
+  "clearinghouse_claim_id": "CH-778899",
+  "client_reference_id": "CLM-1122",
+  "payer_id": "BCBS88",
+  "submitter_id": "9990001110",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed"
+  }
+},
+
+{
+  "event_type": "claim.submitted",
+  "timestamp": "2025-03-01T12:00:00Z",
+  "clearinghouse_claim_id": "CH-778899",
+  "client_reference_id": "CLAIM-50005",
+  "payer_id": "60054",
+  "submitter_id": "1122334455",
+  "status": "ACCEPTED",
+  "validation": {
+    "hipaa_level_1": "passed",
+    "hipaa_level_2": "passed",
+    "payer_level_1": "passed"
+  }
 }
 ]

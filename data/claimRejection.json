@@ -27,6 +27,246 @@
       "description": "Subscriber/Insured not found"
     }
   ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-03-05T08:30:45Z",
+  "clearinghouse_claim_id": "CH-556677",
+  "client_reference_id": "CLM-7788",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A1:4",
+      "source": "999",
+      "description": "Invalid patient identifier"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-03-20T13:15:10Z",
+  "clearinghouse_claim_id": "CH-223344",
+  "client_reference_id": "CLM-9900",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A6:18",
+      "source": "277CA",
+      "description": "Procedure code missing or invalid"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-04-10T09:50:25Z",
+  "clearinghouse_claim_id": "CH-889900",
+  "client_reference_id": "CLM-1122",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A2:100",
+      "source": "999",
+      "description": "Invalid date of service"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-04-25T14:20:55Z",
+  "clearinghouse_claim_id": "CH-334455",
+  "client_reference_id": "CLM-3344",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A4:50",
+      "source": "277CA",
+      "description": "Billing provider not enrolled"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-05-15T11:35:40Z",
+  "clearinghouse_claim_id": "CH-667788",
+  "client_reference_id": "CLM-5566",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A5:75",
+      "source": "999",
+      "description": "Missing or invalid place of service"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-05-28T10:10:15Z",
+  "clearinghouse_claim_id": "CH-112233",
+  "client_reference_id": "CLM-7788",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A8:30",
+      "source": "277CA",
+      "description": "Invalid or missing rendering provider"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-06-15T13:45:50Z",
+  "clearinghouse_claim_id": "CH-445566",
+  "client_reference_id": "CLM-9900",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A9:60",
+      "source": "999",
+      "description": "Coordination of benefits error"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-06-30T12:30:05Z",
+  "clearinghouse_claim_id": "CH-778899",
+  "client_reference_id": "CLM-1122",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A0:90",
+      "source": "277CA",
+      "description": "Duplicate claim submission"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-07-15T09:20:35Z",
+  "clearinghouse_claim_id": "CH-990011",
+  "client_reference_id": "CLM-3344",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A10:120",
+      "source": "999",
+      "description": "Invalid insurance plan code"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-07-30T14:55:20Z",
+  "clearinghouse_claim_id": "CH-223344",
+  "client_reference_id": "CLM-5566",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A11:150",
+      "source": "277CA",
+      "description": "Missing referring provider information"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-08-12T11:15:45Z",
+  "clearinghouse_claim_id": "CH-556677",
+  "client_reference_id": "CLM-7788",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A12:180",
+      "source": "999",
+      "description": "Invalid or missing taxonomy code"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-08-28T16:40:10Z",
+  "clearinghouse_claim_id": "CH-889900",
+  "client_reference_id": "CLM-9900",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A13:210",
+      "source": "277CA",
+      "description": "Service not covered by plan"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-09-10T10:05:30Z",
+  "clearinghouse_claim_id": "CH-334455",
+  "client_reference_id": "CLM-1122",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A14:240",
+      "source": "999",
+      "description": "Invalid claim amount"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-09-25T13:25:55Z",
+  "clearinghouse_claim_id": "CH-667788",
+  "client_reference_id": "CLM-3344",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A15:270",
+      "source": "277CA",
+      "description": "Missing patient signature"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-10-10T15:45:20Z",
+  "clearinghouse_claim_id": "CH-112233",
+  "client_reference_id": "CLM-5566",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A16:300",
+      "source": "999",
+      "description": "Invalid billing cycle"
+    }
+  ]
+},
+
+{
+  "event_type": "claim.rejected",
+  "timestamp": "2025-10-28T12:10:35Z",
+  "clearinghouse_claim_id": "CH-445566",
+  "client_reference_id": "CLM-7788",
+  "status": "REJECTED",
+  "reason_codes": [
+    {
+      "code": "A17:330",
+      "source": "277CA",
+      "description": "Incorrect patient age"
+    }
+  ]
 }
 
 

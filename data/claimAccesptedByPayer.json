@@ -16,7 +16,187 @@
   "client_reference_id": "CLM-4455",
   "payer_claim_id": "PN-991877",
   "status": "IN_PROCESSING"
-}
+},
 
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-03-05T09:45:30Z",
+  "clearinghouse_claim_id": "CH-556677",
+  "client_reference_id": "CLM-7788",
+  "payer_claim_id": "PN-334455",
+  "status": "IN_PROCESSING",
+  "message": "Claim successfully received by payer"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-03-20T14:22:15Z",
+  "clearinghouse_claim_id": "CH-223344",
+  "client_reference_id": "CLM-9900",
+  "payer_claim_id": "PN-667788",
+  "status": "IN_PROCESSING"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-04-10T10:05:50Z",
+  "clearinghouse_claim_id": "CH-889900",
+  "client_reference_id": "CLM-1122",
+  "payer_claim_id": "PN-445566",
+  "status": "IN_PROCESSING",
+  "message": "Claim accepted and queued for review"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-04-25T15:30:00Z",
+  "clearinghouse_claim_id": "CH-334455",
+  "client_reference_id": "CLM-3344",
+  "payer_claim_id": "PN-778899",
+  "status": "IN_PROCESSING"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-05-12T12:15:25Z",
+  "clearinghouse_claim_id": "CH-667788",
+  "client_reference_id": "CLM-5566",
+  "payer_claim_id": "PN-990011",
+  "status": "IN_PROCESSING",
+  "message": "Claim received and under initial review"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-05-28T09:40:10Z",
+  "clearinghouse_claim_id": "CH-112233",
+  "client_reference_id": "CLM-7788",
+  "payer_claim_id": "PN-223344",
+  "status": "IN_PROCESSING"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-06-15T14:55:45Z",
+  "clearinghouse_claim_id": "CH-445566",
+  "client_reference_id": "CLM-9900",
+  "payer_claim_id": "PN-556677",
+  "status": "IN_PROCESSING",
+  "message": "Claim accepted for further processing"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-06-30T11:20:30Z",
+  "clearinghouse_claim_id": "CH-778899",
+  "client_reference_id": "CLM-1122",
+  "payer_claim_id": "PN-889900",
+  "status": "IN_PROCESSING"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-03-01T12:45:10Z",
+  "clearinghouse_claim_id": "CH-778899",
+  "client_reference_id": "CLAIM-50005",
+  "payer_claim_id": "PAYER-991122",
+  "status": "IN_PROCESSING",
+  "message": "Claim accepted by payer gateway for adjudication"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-04-15T10:30:55Z",
+  "clearinghouse_claim_id": "CH-334455",
+  "client_reference_id": "CLAIM-60006",
+  "payer_claim_id": "PAYER-882233",
+  "status": "IN_PROCESSING"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-05-20T09:15:35Z",
+  "clearinghouse_claim_id": "CH-556677",
+  "client_reference_id": "CLAIM-70007",
+  "payer_claim_id": "PAYER-773344",
+  "status": "IN_PROCESSING",
+  "message": "Claim successfully accepted by payer system"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-06-25T14:05:20Z",
+  "clearinghouse_claim_id": "CH-112233",
+  "client_reference_id": "CLAIM-80008",
+  "payer_claim_id": "PAYER-664455",
+  "status": "IN_PROCESSING"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-07-30T11:50:00Z",
+  "clearinghouse_claim_id": "CH-990011",
+  "client_reference_id": "CLAIM-90009",
+  "payer_claim_id": "PAYER-555566",
+  "status": "IN_PROCESSING",
+  "message": "Claim accepted and logged by payer"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-08-15T13:25:45Z",
+  "clearinghouse_claim_id": "CH-223344",
+  "client_reference_id": "CLAIM-10010",
+  "payer_claim_id": "PAYER-446677",
+  "status": "IN_PROCESSING"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-09-05T10:10:30Z",
+  "clearinghouse_claim_id": "CH-667788",
+  "client_reference_id": "CLAIM-11011",
+  "payer_claim_id": "PAYER-337788",
+  "status": "IN_PROCESSING",
+  "message": "Claim received and accepted by payer"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-09-20T15:40:15Z",
+  "clearinghouse_claim_id": "CH-889900",
+  "client_reference_id": "CLAIM-12012",
+  "payer_claim_id": "PAYER-228899",
+  "status": "IN_PROCESSING"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-10-10T12:55:50Z",
+  "clearinghouse_claim_id": "CH-445566",
+  "client_reference_id": "CLAIM-13013",
+  "payer_claim_id": "PAYER-119900",
+  "status": "IN_PROCESSING",
+  "message": "Claim accepted by payer for processing"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-10-25T09:35:30Z",
+  "clearinghouse_claim_id": "CH-112233",
+  "client_reference_id": "CLAIM-14014",
+  "payer_claim_id": "PAYER-001122",
+  "status": "IN_PROCESSING"
+},
+
+{
+  "event_type": "claim.accepted_by_payer",
+  "timestamp": "2025-11-15T14:20:05Z",
+  "clearinghouse_claim_id": "CH-334455",
+  "client_reference_id": "CLAIM-15015",
+  "payer_claim_id": "PAYER-112233",
+  "status": "IN_PROCESSING",
+  "message": "Claim successfully accepted by payer system"
+}
 
 ]
